@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form action="./forms_basic.html" method="get">
+      <h3>Forms_types</h3>
+      <hr />
+      <div>
+        <label for="">password</label>
+        <input type="password" name="password" id="" />
+      </div>
+
+      <div>
+        <label for="">Publishing languages</label>
+        <div>
+          <input type="radio" name="langs" value="html" id="html_id" />
+          <!-- name값을 다르게 하면 중복체크가 된다. -->
+          <label for="html_id">HTML</label>
+        </div>
+        <div>
+          <input type="radio" name="langs" value="css" id="css_id" />
+          <label for="css_id">CSS</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            name="langs"
+            value="javascript"
+            id="javascript_id"
+          />
+          <label for="javascript_id">JAVAScript</label>
+        </div>
+      </div>
+      <hr />
+      <div>Vehicles</div>
+      <div>
+        <div>
+          <input type="checkbox" name="Bike" value="bike" id="bike_id" />
+          <label for="bike_id">Bike</label>
+        </div>
+        <div>
+          <input type="checkbox" name="Bus" value="bus" id="Bus_id" />
+          <label for="Bus_id">Bus</label>
+        </div>
+        <div>
+          <input type="checkbox" name="Car" value="car" id="car_id" />
+          <label for="car_id">Car</label>
+        </div>
+      </div>
+      <hr />
+      <div>
+        <label for="">Choose Date</label>
+        <input type="date" name="Date" id="" />
+      </div>
+      <hr />
+      <input type="hidden" name="custId" value="U01" />
+      <input type="hidden" name="answerId" value="A03" />
+      <hr />
+      <div>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+    <hr />
+
+    <h3></h3>
+    <a href="./index.html">Index</a>
+  </body>
+</html>

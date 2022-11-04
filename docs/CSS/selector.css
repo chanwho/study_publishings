@@ -1,0 +1,23 @@
+/* div ~ h6 {
+  color: green;
+}
+div + h6 {
+  color: green;
+}
+
+ul li {
+  color: brown;
+  background-color: aqua;
+}
+ol > li {
+  color: white;
+  background-color: black;
+}
+
+h3,
+h4 {
+  color: blue;
+}
+h4 {
+  background-color: aqua;
+} */

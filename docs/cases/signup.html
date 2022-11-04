@@ -5,10 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- http://127.0.0.1:5500/docs/forms_basic.html?
-        Name=1&ID=2&Password=3&Password_check=4&Email=5&PhoneNumber_middle=7
-        &PhoneNumber_End=8&CallNumber_middle=9&CallNumber_End=10&PostNumber=11
-        &Address=12&Address_detail=13 -->
   </head>
 
   <body>
@@ -16,32 +12,40 @@
       <div style="text-align: left">기본정보</div>
       <div style="text-align: right">v 표시항목은 필수 입력사항입니다</div>
       <hr />
+      <h5>
+        http://127.0.0.1:5500/docs/forms_basic.html?
+        name=chanwoo&id=abc123&password=1q2w3e4r&
+        password_check=1q2w3e4r&email=abc123&
+        phoneNumber_middle=2313&phoneNumber_End=2313&callNumber_middle=7869&callNumber_End=7869&
+        postNumber=xcada&Address=sdqwefa&Address_detail=adafa
+      </h5>
+      <hr />
       <div>
         <label for="">이름&emsp;&emsp;&emsp;&emsp;&emsp;</label>
-        <input type="text" name="Name" />
+        <input type="text" name="name" />
       </div>
       <div>
         <label for="">아이디&emsp;&emsp;&emsp;&emsp;</label>
-        <input type="text" name="ID" />
+        <input type="text" name="id" />
         <button type="submit">아이디중복확인</button>
       </div>
       <div>
         <label for="">비밀번호&emsp;&emsp;&emsp;</label>
-        <input type="password" name="Password" id="" />
+        <input type="password" name="password" id="" />
       </div>
       <div>
         <label for="">비밀번호 확인&nbsp;&nbsp;</label>
-        <input type="password" name="Password_check" id="" />
+        <input type="password" name="password_check" id="" />
       </div>
       <div>
         <label for="">이메일&emsp;&emsp;&emsp;&emsp;</label>
-        <input type="text" name="Email" />
+        <input type="text" name="email" />
         @
-        <input type="text" />
-        <select name="" id="ChooseMailPortal">
+        <input type="text" value="" />
+        <select name="" id="chooseMailPortal">
           <option value="">메일주소선택</option>
-          <option value="">naver.com</option>
-          <option value="">google.com</option>
+          <option value="naver.com">naver.com</option>
+          <option value="google.com">google.com</option>
           <!-- TODO -->
         </select>
       </div>
@@ -54,9 +58,9 @@
             <option value="">011</option>
           </select>
           <label for="">-</label>
-          <input type="text" size="3" name="PhoneNumber_middle" />
+          <input type="text" size="3" name="phoneNumber_middle" />
           <label for="">-</label>
-          <input type="text" size="3" name="PhoneNumber_End" />
+          <input type="text" size="3" name="phoneNumber_End" />
         </div>
         <div>
           <label for=""
@@ -68,17 +72,14 @@
             <option value="">032</option>
           </select>
           <label for="">-</label>
-          <input type="text" size="3" name="CallNumber_middle" />
+          <input type="text" size="3" name="callNumber_middle" />
           <label for="">-</label>
-          <input type="text" size="3" name="CallNumber_End" />
+          <input type="text" size="3" name="callNumber_End" />
         </div>
-        <select name="" id="">
-          <option value=""></option>
-        </select>
       </div>
       <div>
         <label for="">우편번호&emsp;&emsp;&emsp;</label>
-        <input type="text" name="PostNumber" />
+        <input type="text" name="postNumber" />
         <button>주소검색</button>
       </div>
       <div>
@@ -94,9 +95,9 @@
       <div>
         <label for="">정보수신여부&emsp;</label>
         <label for="">서비스 및 이벤트 소식을</label>
-        <input type="checkbox" name="" id="" />
-        <label for="">Emaail로 수신하겠습니다</label>
-        <input type="checkbox" name="" id="" />
+        <input type="checkbox" name="receive_event_Email" id="" />
+        <label for="">Email로 수신하겠습니다</label>
+        <input type="checkbox" name="receive_event_SMS" id="" />
         <label for="">SMS로 수신하겠습니다</label>
       </div>
       <div>

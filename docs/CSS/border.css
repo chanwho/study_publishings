@@ -40,38 +40,24 @@
   border-color: blue rgba(255, 0, 0) rgba(0, 255, 0) rgba(0, 0, 0);
 }
 
-.dotted-margin-10px {
-  border-style: dotted;
-  margin: 10px 10px 10px 10px;
-}
-.double-margin-20px {
-  border-style: double;
-  margin: 20px 20px 20px 20px;
+.border-short {
+  border: 5px solid blue;
 }
 
-.dotted-padding-10px {
-  border-style: dotted;
-  padding: 10px 10px 10px 10px;
-}
-.double-padding-10px {
-  border-style: double;
-  padding: 10px 10px 10px 10px;
-}
-.solid-padding-10px {
-  border-style: solid;
-  padding: 10px 10px 10px 10px;
+.border-short-left {
+  border-left: 10px solid red;
 }
 
-.width-50px {
-  width: 50px;
-  height: 50px;
+.border-short-bottom {
+  border-bottom: 3px dotted violet;
 }
 
-.width-50 {
-  width: 50%;
-  height: 50%;
+.round-border-5px {
+  border: 2px solid red;
+  border-radius: 5px;
 }
 
-.shadow-20px {
-  box-shadow: 20px 5px rgba(0, 0, 0, 0.2);
+.round-border-20px {
+  border: 2px solid blue;
+  border-radius: 20px;
 }

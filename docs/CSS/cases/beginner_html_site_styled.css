@@ -1,0 +1,36 @@
+.text-align-center {
+  text-align: center;
+}
+.text-align-left {
+  text-align: left;
+}
+.text-color-royalblue {
+  color: royalblue;
+}
+.text_shadow {
+  text-shadow: 4px 4px;
+}
+.solid-border {
+  border-style: solid;
+}
+.width-700px {
+  width: 700px;
+}
+.background-color-darkorange {
+  background-color: darkorange;
+}
+.background-color-royalblue {
+  background-color: royalblue;
+}
+.font-size-33px {
+  font-size: 33px;
+}
+.inner {
+  display: inline-block;
+}
+.padding-width {
+  padding: 25px 25px 25px 25px;
+}
+.line-height {
+  line-height: 35px;
+}

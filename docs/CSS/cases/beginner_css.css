@@ -1,0 +1,53 @@
+/* * {
+  border: 1px dotted black;
+} */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 25px;
+  max-width: 700px;
+  height: 500px;
+}
+.align-items {
+  align-items: flex-start;
+}
+.flex-container-list {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 200px;
+}
+.list-padding {
+  padding: 10px;
+}
+.background-color-yellow {
+  background-color: rgb(216, 218, 61);
+}
+.list-border-leftblack {
+  border-right: 15px solid black;
+}
+.text-color-puple {
+  color: purple;
+}
+.background-color-white {
+  background-color: aliceblue;
+}
+.margin-list {
+  margin-top: 10px;
+}
+.font-size {
+  font-size: 20px;
+}
+.font-size-textTitle {
+  font-size: 40px;
+}
+.line-padding-top {
+  padding-top: 14px;
+}
+.margin-text-left {
+  margin-left: 20px;
+}
+.list-text-padding {
+  padding: 5px;
+}

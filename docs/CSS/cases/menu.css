@@ -1,0 +1,29 @@
+/* * {
+  border: 1px dotted gray;
+} */
+.fontsize {
+  font-size: 27px;
+}
+.back-ground-yellow {
+  background-color: yellow;
+}
+.border {
+  border: 30px 30px 30px 30px;
+}
+ul {
+  display: inline-block;
+  list-style: none;
+}
+li {
+  display: inline;
+  padding: 20px;
+}
+.text-align-center {
+  text-align: center;
+}
+.padding {
+  padding: 20px;
+}
+.margin-top {
+  margin-top: 20px;
+}

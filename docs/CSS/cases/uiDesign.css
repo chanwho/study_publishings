@@ -1,0 +1,32 @@
+.outdiv {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid gray;
+}
+.divleft {
+  text-align: center;
+}
+.divleft-title {
+  padding-top: 5px;
+}
+.divleft-content {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.button-submit {
+  padding: 20px;
+}
+.text-size {
+  font-size: 16px;
+}
+.table-top {
+  background-color: coral;
+  color: white;
+}
+.table-middle {
+  background-color: bisque;
+}
+.shortcut {
+  width: 70px;
+  background-color: gainsboro;
+}

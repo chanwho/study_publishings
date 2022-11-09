@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/cases/uiDesign.css" />
+  </head>
+
+  <body>
+    <form action="insert.no" method="post">
+        <div class="outdiv">
+        <div class="divleft text-size">
+            <strong>
+            <div class="divleft-title">제목</div>
+            <div class="divleft-content">내용</div>
+            <div class="divleft-title">첨부파일</div>
+        </div>
+        </strong>
+        <div>
+            <div>
+            <label for=""></label>
+            <input type="text" name="title" style="width: 230px" />
+            </div>
+            <div class="divleft-title">
+            <textarea name="content" id="" cols="30" rows="10">내용을 입력하시오</textarea
+            >
+            </div>
+            <div>
+            <button name="uploadFile">파일 선택</button>
+            <span> 선택된 파일 없음</span>
+            </div>
+            <div class="button-submit divleft">
+            <button type="submit">작성하기</button>
+            </div>
+        </div>
+        </div>
+    </form>
+    <hr />
+    <table border="2">
+        <tr class="table-top">
+            <th>번호</th>
+            <th colspan="4" style="width: 400px;">제목</th>
+            <th>작성자</th>
+            <th>작성일</th>
+            <th>조회수</th>
+        </tr>
+        <tr class="table-middle">
+            <td>9</td>
+            <td colspan="3">공지사항 제목9</td>
+            <td class="shortcut">바로가기</td>
+            <td>user01</td>
+            <td>2021-03-29</td>
+            <td>34</td>
+        </tr>
+        <tr class="table-middle">
+            <td>6</td>
+            <td colspan="3">공지사항 제목6</td>
+            <td class="shortcut">바로가기</td>
+            <td>answe445</td>
+            <td>2021-03-12</td>
+            <td>67</td>
+        </tr>
+        <tr class="table-middle">
+            <td>3</td>
+            <td colspan="3">공지사항 제목3</td>
+            <td class="shortcut">바로가기</td>
+            <td>testg12</td>
+            <td>2021-03-01</td>
+            <td>98</td>
+        </tr>
+        <tr class="table-middle">
+            <td>2</td>
+            <td colspan="3">공지사항 제목2</td>
+            <td class="shortcut">바로가기</td>
+            <td>palw3</td>
+            <td>2021-01-02</td>
+            <td>85</td>
+        </tr>
+        <tr class="table-middle">
+            <td>1</td>
+            <td colspan="3">공지사항 제목1</td>
+            <td class="shortcut">바로가기</td>
+            <td>xml23</td>
+            <td>2020-12-24</td>
+            <td>124</td>
+        </tr>
+        <tr class="table-top">
+            <td colspan="6"> 전체 공지사항 갯수</td>
+            <td colspan="2">5개</td>
+        </tr>
+
+    </table>
+  </body>
+</html>

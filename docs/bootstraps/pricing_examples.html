@@ -17,9 +17,9 @@
   <body>
     <div class="container">
       <!-- nav -->
-      <header class="nav d-flex justify-content-between">
+      <header class="row">
         <!-- logo & SiteName -->
-        <a href="" class="d-flex align-items-center text-decoration-none"
+        <a href="" class="col d-flex align-items-center text-decoration-none"
           ><img
             src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
             alt="Loading Error"
@@ -28,18 +28,18 @@
           Pricing example</a
         >
         <!-- side bar : TODO : nav가 서로 붙음, 밑줄 안없어짐-->
-        <div>
-          <nav class="nav nav-pills">
-            <a href="nav-link">Features</a>
-            <a href="nav-link">Enterprise</a>
-            <a href="nav-link">support</a>
-            <a href="nav-link">Pricing</a>
+        <div class="col">
+          <nav class="nav">
+            <a href="nav-link" class="text-decoration-none">Features</a>
+            <a href="nav-link" class="text-decoration-none">Enterprise</a>
+            <a href="nav-link" class="text-decoration-none">support</a>
+            <a href="nav-link" class="text-decoration-none">Pricing</a>
           </nav>
         </div>
       </header>
       <!-- title & decription -->
-      <div class="">
-        <div>Pricing</div>
+      <div class="justify-content-center">
+        <div class="">Pricing</div>
         <div>
           Quickly build an effective pricing table for your potential customuers
           with this Bootstrap example, It's built with default Bootstrap
@@ -47,6 +47,10 @@
         </div>
       </div>
       <!-- grid -->
+      <div>
+        <div class="fs-2">Compare plans</div>
+        <div></div>
+      </div>
       <!-- footer -->
     </div>
     <!--  -->

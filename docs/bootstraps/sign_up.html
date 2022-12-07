@@ -18,7 +18,7 @@
     <div class="row p-5">
       <!-- description -->
       <div class="col-12 col-sm-7 col-md-7 col-lg-7">
-        <div class="fs-4 fw-bold">Vertically centerd hero sign-up form</div>
+        <div class="fs-1 fw-bold">Vertically centerd hero sign-up form</div>
         <!-- deccription title -->
         <div class="fs-6">
           Below is an example form built entirely with bootstraps's form
@@ -28,24 +28,24 @@
         <!-- deccription-text -->
       </div>
       <!-- input id&pw panel -->
-      <div
-        class="p-3 rounded bg-secondary bg-opacity-25 col-12 col-sm-5 col-md-5 col-lg-5"
-      >
-        <input class="form-control" placeholder="Email address" type="text" />
-        <input class="form-control" placeholder="Password" type="text" />
-        <!-- remember me -->
-        <div class="form-check">
+      <div class="p-3 rounded bg-secondary bg-opacity-25 col-12 col-sm-5 col-md-5 col-lg-5">
+        <form action="./sign_up.html" method="get">
+          <div>
+            <input class="form-control" name="emailAddress" placeholder="Email address" type="text" />
+            <input class="form-control" name="emailPassword" placeholder="Password" type="text" />
+          </div>
+          <!-- remember me -->
+          <div class="form-check input-group">
           <input
-            type="checkbox"
-            class="form-check-input"
-            name=""
-            id="rememberMe"
+          type="checkbox"
+          class="form-check-input"
+          name=""
+          id="rememberMe"
           />
-          <label for="RememberMe" class="form-check-label">Remember me</label>
+          <label for="rememberMe" class="form-check-label">Remember me</label>
         </div>
-        <div>
-          <button class="btn btn-primary w-100">Sign up</button>
-        </div>
+        <button type="submit" class="btn btn-primary w-100">Sign up</button>
+      </form>
       </div>
     </div>
 

@@ -15,25 +15,98 @@
   </head>
 
   <body>
-    <div class="fs-3">Navigations Bar</div>
     <div class="container">
-      <nav class="navbar">
-        <a href="" class="navbar-brand">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
-            alt="로딩오류"
-            width="40"
-          />
-          Brand</a
-        >
+      <!-- basic -->
+      <div class="fs-3">Navigations Bar basic</div>
+      <nav class="navbar navbar-expand bg-light">
         <div class="navbar-nav">
-          <a href="" class="">Home</a>
-          <a href="">Feature</a>
-          <a href="">Pricing</a>
+          <a href="" class="nav-link">Home</a>
+          <a href="" class="nav-link">Feature</a>
+          <a href="" class="nav-link">Pricing</a>
         </div>
       </nav>
-    </div>
-    <hr class="hr" />
+      <!-- brand -->
+      <div class="fs-3">Navigations Bar with color</div>
+      <nav class="navbar navbar-expand bg-dark navbar-dark">
+          <div class="container">
+              <a href="" class="navbar-brand">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="" srcset=""
+                      width="40">
+                  Brend
+              </a>
+  
+              <div class="navbar-nav">
+                  <a href="" class="nav-link">Home</a>
+                  <a href="" class="nav-link">Feature</a>
+                  <a href="" class="nav-link">Pricing</a>
+              </div>
+          </div>
+      </nav>
+      <hr>
+      <!-- dropdown -->
+      <div class="dropdown">
+        <a href="#dropdwonID" data-bs-toggle="dropdown"  class="dropdown-toggle">dropdown Menu</a>
+        <div id="dropdwonID" class="dropdown-menu">
+          <a href="" class="dropdown-item">Menu One</a>
+          <a href="" class="dropdown-item">Menu Twwo</a>
+          <a href="" class="dropdown-item">Menu Three</a>
+        </div>
+      </div>
+
+      <div class="fs-3">Navigations Bar with dropdown</div>
+      <nav class="navbar navbar-expand bg-primary navbar-primary">
+          <div class="container">
+              <a href="" class="navbar-brand">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="" srcset=""
+                      width="40">
+                  Brend
+              </a>
+  
+              <div class="navbar-nav">
+                <div class="nav-item">
+                  <a href="" class="nav-link">Home</a>
+                </div>
+                  <a href="" class="nav-link">Home</a>
+                  <a href="" class="nav-link">Feature</a>
+                  <a href="" class="nav-link">Pricing</a>
+                  <div class="dropdown nav-item">
+                    <a href="#dropdwonID" data-bs-toggle="dropdown"  class="dropdown-toggle">dropdown Menu</a>
+                    <div id="dropdwonID" class="dropdown-menu">
+                      <a href="" class="dropdown-item">Menu One</a>
+                      <a href="" class="dropdown-item">Menu Twwo</a>
+                      <a href="" class="dropdown-item">Menu Three</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </nav>
+      <hr>
+
+      <!--  -->
+      <div class="fs-3">Navigations Bar with collase</div>
+      <nav class="navbar navbar-expand-sm bg-light">
+          <div class="container-fluid">
+              <a href="" class="navbar-brand">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="" srcset=""
+                      width="40">
+                  Brend
+              </a>
+  
+              <a href="#collapseId" data-bs-toggle="collapse" class="navbar-toggler">Collapse Menu</a>
+              <div class="collapse navbar-collapse" id="collapseId">
+                <div class="navbar-nav">
+                    <a href="" class="nav-link">Home</a>
+                    <a href="" class="nav-link">Feature</a>
+                    <a href="" class="nav-link">Pricing</a>
+                </div>
+                <div>
+                  <a href="" class="btn btn-primary">Login</a>
+                </div>
+              </div>  
+          </div>
+      </nav>
+      <hr>
+
     <!--  -->
 
     <!-- bootstrap ref -->
